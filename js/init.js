@@ -90,7 +90,7 @@ function pageNumberSelected(pageNumber, itemsPerPage, pageLocation)
 		}
 	});
 	
-	$('#PageLabel').html('Page ' + pageNumber);
+	$('#page-label').html('Page ' + pageNumber);
 	
 	window.scrollTo(0, 0);
 }
