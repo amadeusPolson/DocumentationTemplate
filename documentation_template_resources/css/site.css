@@ -1,0 +1,116 @@
+#steps a.screenshot
+, #steps a.screenshot > img
+{
+	width: 700px;
+	height: auto;
+	margin: 20px auto;
+	display: block;
+}
+#steps a.screenshot > img
+{
+	border: 1px solid #343434;
+}
+
+ul.list-style
+, ul.list-style-short
+{
+	width: 900px;
+	font-size: 16px;
+	margin: -10px auto 10px;
+}
+
+ul.list-style > li
+, ul.list-style-short > li
+{
+	list-style-type: circle;
+	margin: 0 auto;
+}
+ul.list-style > li
+{
+	width: 550px;
+}
+ul.list-style-short > li
+{
+	width: 350px;
+}
+
+.pagination
+{
+	margin: 40px 0 !important;
+	width: 100% !important;
+	text-align: center !important;
+}
+
+.pagination > li
+{
+	display: inline-block !important;
+	float: none !important;
+}
+
+h1
+{
+	font-family: georgia, serif;
+	font-size: 42px;
+	text-align: center;
+	margin: 20px 0 40px;
+}
+
+h2
+{
+	font-family: georgia, serif;
+	font-size: 30px;
+	text-align: center;
+	margin: 40px 0 20px;
+}
+
+p
+{
+	font-size: 18px;
+	width: 900px;
+	display: block;
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+#steps > li > ol
+{
+	font-size: 18px;
+	width: 900px;
+	display: block;
+	margin: 0 auto 20px;
+	text-indent: -40px;
+	padding-left: 40px;
+}
+
+#steps > li > ol.mediumWidth
+{
+	width: 800px;
+}
+
+a
+{
+	color: #0000FF;
+}
+
+/*                         */
+/* Plugin style overriding */
+/*                         */
+.fancybox-title
+{
+	font-weight: bold !important;
+}
+img.fancybox-image
+{
+	border: 1px solid #343434;
+}
+
+a.page-link
+{
+	text-decoration: none;
+	color: #DEDEDE !important;
+}
+li.active > span.current
+{
+	color: white !important;
+	font-weight: bold;
+}
