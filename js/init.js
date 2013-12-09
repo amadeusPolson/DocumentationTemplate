@@ -63,6 +63,7 @@ function initNavigation()
 function deleteNavigation()
 {
 	$('ul.pagination').remove();
+	$('#page-label').remove();
 }
 
 function initFancyBox()
