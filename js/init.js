@@ -4,14 +4,14 @@ $(document).ready(function() {
 
 	initFancyBox();
 	
-	//If only one page, then no need for navigation
+	//If only one page, then no need for navigation or page header
 	if(($('#steps > li').length / itemsPerPage) > 1)
 	{
 		initNavigation();
 	}
 	else
 	{
-		deleteNavigation();
+		deleteNavigationAndPageHeader();
 	}
 	
 	initStepNumbering();	
@@ -60,9 +60,10 @@ function initNavigation()
 	pageNumberSelected(1, itemsPerPage);
 }
 
-function deleteNavigation()
+function deleteNavigationAndPageHeader()
 {
 	$('ul.pagination').remove();
+	$('#page-label').remove();
 	$('#page-label').remove();
 }
 
