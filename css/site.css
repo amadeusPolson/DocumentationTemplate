@@ -78,8 +78,8 @@ p
 	text-align: center;
 }
 
-#steps > li > ol
-, #steps > li > ul
+#steps > li > ol:not(.list-style)
+, #steps > li > ul:not(.list-style)
 {
 	font-size: 18px;
 	width: 900px;
