@@ -11,25 +11,26 @@
 	border: 1px solid #343434;
 }
 
-ul.list-style
-, ul.list-style-short
+.list-style
+, .list-style-short
+
 {
 	width: 900px;
 	font-size: 16px;
 	margin: -10px auto 10px;
 }
 
-ul.list-style > li
-, ul.list-style-short > li
+.list-style > li
+, .list-style-short > li
 {
 	list-style-type: circle;
 	margin: 0 auto;
 }
-ul.list-style > li
+.list-style > li
 {
 	width: 550px;
 }
-ul.list-style-short > li
+.list-style-short > li
 {
 	width: 350px;
 }
@@ -78,6 +79,7 @@ p
 }
 
 #steps > li > ol
+, #steps > li > ul
 {
 	font-size: 18px;
 	width: 900px;
@@ -87,7 +89,7 @@ p
 	padding-left: 40px;
 }
 
-#steps > li > ol.mediumWidth
+#steps > li > .mediumWidth
 {
 	width: 800px;
 }
