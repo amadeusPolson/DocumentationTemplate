@@ -78,13 +78,18 @@ p
 	text-align: center;
 }
 
-#steps > li > ol:not(.list-style)
-, #steps > li > ul:not(.list-style)
+#steps > li > ol
+, #steps > li > ul
 {
 	font-size: 18px;
 	width: 900px;
 	display: block;
 	margin: 0 auto 20px;
+}
+
+#steps > li > ol:not(.list-style)
+, #steps > li > ul:not(.list-style)
+{
 	text-indent: -40px;
 	padding-left: 40px;
 }
